@@ -4882,8 +4882,7 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, enum Ability ability, u32 spec
              && gDisableStructs[gBattlerAttacker].disabledMove == MOVE_NONE
              && IsBattlerAlive(gBattlerAttacker)
              && !IsAbilityOnSide(gBattlerAttacker, ABILITY_AROMA_VEIL)
-             && gBattleMons[gBattlerAttacker].pp[gChosenMovePos] != 0
-             && !(GetActiveGimmick(gBattlerAttacker) == GIMMICK_DYNAMAX) // TODO: Max Moves don't make contact, useless?
+             && gChosenMove != MOVE_STRUGGLE
              && RandomPercentage(RNG_CURSED_BODY, 30))
             {
                 gDisableStructs[gBattlerAttacker].disabledMove = gChosenMove;
