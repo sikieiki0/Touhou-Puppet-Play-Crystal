@@ -134,7 +134,7 @@ SINGLE_BATTLE_TEST("Booster Energy activates Quark Drive and increases highest s
 SINGLE_BATTLE_TEST("Booster Energy increases special attack by 30% if it is the highest stat", s16 damage)
 {
     u32 species;
-    u32 ability;
+    enum Ability ability;
     u32 item;
 
     PARAMETRIZE { species = SPECIES_RAGING_BOLT; ability = ABILITY_PROTOSYNTHESIS; item = ITEM_NONE; }
@@ -160,7 +160,7 @@ SINGLE_BATTLE_TEST("Booster Energy increases special attack by 30% if it is the 
 SINGLE_BATTLE_TEST("Booster Energy increases special defense by 30% if it is the highest stat", s16 damage)
 {
     u32 species;
-    u32 ability;
+    enum Ability ability;
     u32 item;
 
     PARAMETRIZE { species = SPECIES_RAGING_BOLT; ability = ABILITY_PROTOSYNTHESIS; item = ITEM_NONE; }

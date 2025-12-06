@@ -90,7 +90,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_DRAGON),
-        .abilities = {ABILITY_COLLECTOR, ABILITY_SAND_VEIL},
+        .abilities = {ABILITY_STICKY_HOLD, ABILITY_SAND_VEIL},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_NAZRIN,
