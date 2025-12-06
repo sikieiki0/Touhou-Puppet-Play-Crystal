@@ -2398,7 +2398,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
         .name = COMPOUND_STRING("Earthquake"),
         .description = COMPOUND_STRING(
             "A powerful quake that\n"
-            "hits all other POKéMON."),
+            "hits all other Bonéka."),
         .effect = EFFECT_EARTHQUAKE,
         .power = 100,
         .type = TYPE_EARTH,
@@ -21629,7 +21629,7 @@ const struct MoveInfo gMovesInfo[MOVES_COUNT_ALL] =
     {
         .name = COMPOUND_STRING("Guardian of Alola"),
         .description = COMPOUND_STRING(
-            "The Land Spirit Pokémon\n"
+            "The Land Spirit Bonéka\n"
             "greatly reduces the foe's HP."),
         .effect = EFFECT_FIXED_PERCENT_DAMAGE,
         .power = 1,
