@@ -2,39 +2,31 @@
 #define GUARD_CONSTANTS_POKEMON_H
 
 // Pokémon types
-#define TYPE_NONE             0
-#define TYPE_DREAM            1
-#define TYPE_FIGHTING         2
-#define TYPE_FLYING           3
-#define TYPE_MIASMA           4
-#define TYPE_EARTH            5
-#define TYPE_PRIMAL           6
-#define TYPE_SPIRIT           7
-#define TYPE_NETHER           8
-#define TYPE_STEEL            9
-#define TYPE_MYSTERY          10
-#define TYPE_FIRE             11
-#define TYPE_WATER            12
-#define TYPE_NATURE           13
-#define TYPE_ELECTRIC         14
-#define TYPE_REASON           15
-#define TYPE_ICE              16
-#define TYPE_HOLY             17
-#define TYPE_DARK             18
-#define TYPE_ILLUSION         19
-#define TYPE_STELLAR          20
-#define NUMBER_OF_MON_TYPES   21
-// Puppet-Pokemon type redefines
-#define TYPE_NORMAL           TYPE_DREAM
-#define TYPE_POISON           TYPE_MIASMA
-#define TYPE_GROUND           TYPE_EARTH
-#define TYPE_ROCK             TYPE_PRIMAL
-#define TYPE_BUG              TYPE_SPIRIT
-#define TYPE_GHOST            TYPE_NETHER
-#define TYPE_GRASS            TYPE_NATURE
-#define TYPE_PSYCHIC          TYPE_REASON
-#define TYPE_DRAGON           TYPE_HOLY
-#define TYPE_FAIRY            TYPE_ILLUSION
+enum __attribute__((packed)) Type
+{
+    TYPE_NONE = 0,
+    TYPE_NORMAL = 1,
+    TYPE_FIGHTING = 2,
+    TYPE_FLYING = 3,
+    TYPE_POISON = 4,
+    TYPE_GROUND = 5,
+    TYPE_ROCK = 6,
+    TYPE_BUG = 7,
+    TYPE_GHOST = 8,
+    TYPE_STEEL = 9,
+    TYPE_MYSTERY = 10,
+    TYPE_FIRE = 11,
+    TYPE_WATER = 12,
+    TYPE_GRASS = 13,
+    TYPE_ELECTRIC = 14,
+    TYPE_PSYCHIC = 15,
+    TYPE_ICE = 16,
+    TYPE_DRAGON = 17,
+    TYPE_DARK = 18,
+    TYPE_FAIRY = 19,
+    TYPE_STELLAR = 20,
+    NUMBER_OF_MON_TYPES
+};
 
 // Pokémon egg groups
 #define EGG_GROUP_NONE                0
