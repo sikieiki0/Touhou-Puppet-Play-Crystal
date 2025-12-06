@@ -8,7 +8,7 @@
         .baseSpeed     = 110,
         .baseSpAttack  = 90,
         .baseSpDefense = 50,
-        .types = MON_TYPES(TYPE_FLYING,TYPE_NORMAL),
+        .types = MON_TYPES(TYPE_FLYING,TYPE_DREAM),
         .catchRate = 90,
         .expYield = 30,
         .evYield_HP        = 0,

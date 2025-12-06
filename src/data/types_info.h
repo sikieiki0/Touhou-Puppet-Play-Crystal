@@ -60,7 +60,7 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         .isSpecialCaseType = TRUE,
         .isHiddenPowerType = FALSE,
     },
-    [TYPE_NORMAL] =
+    [TYPE_DREAM] =
     {
         .name = _("Dream"),
         .generic = _("a Dream move"),
@@ -124,7 +124,7 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         //.teraShard = ITEM_FLYING_TERA_SHARD,
         //.arceusForm = SPECIES_ARCEUS_FLYING,
     },
-    [TYPE_POISON] =
+    [TYPE_MIASMA] =
     {
         .name = _("Miasma"),
         .generic = _("a Miasma move"),
@@ -146,7 +146,7 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         //.teraShard = ITEM_POISON_TERA_SHARD,
         //.arceusForm = SPECIES_ARCEUS_POISON,
     },
-    [TYPE_GROUND] =
+    [TYPE_EARTH] =
     {
         .name = _("Earth"),
         .generic = _("an Earth move"),
@@ -168,7 +168,7 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         //.teraShard = ITEM_GROUND_TERA_SHARD,
         //.arceusForm = SPECIES_ARCEUS_GROUND,
     },
-    [TYPE_ROCK] =
+    [TYPE_PRIMAL] =
     {
         .name = _("Primal"),
         .generic = _("a Primal move"),
@@ -190,7 +190,7 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         //.teraShard = ITEM_ROCK_TERA_SHARD,
         //.arceusForm = SPECIES_ARCEUS_ROCK,
     },
-    [TYPE_BUG] =
+    [TYPE_SPIRIT] =
     {
         .name = _("Spirit"),
         .generic = _("a Spirit move"),
@@ -212,7 +212,7 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         //.teraShard = ITEM_BUG_TERA_SHARD,
         //.arceusForm = SPECIES_ARCEUS_BUG,
     },
-    [TYPE_GHOST] =
+    [TYPE_NETHER] =
     {
         .name = _("Nether"),
         .generic = _("a Nether move"),
@@ -311,7 +311,7 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         //.teraShard = ITEM_WATER_TERA_SHARD,
         //.arceusForm = SPECIES_ARCEUS_WATER,
     },
-    [TYPE_GRASS] =
+    [TYPE_NATURE] =
     {
         .name = _("Nature"),
         .generic = _("a Nature move"),
@@ -355,7 +355,7 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         //.teraShard = ITEM_ELECTRIC_TERA_SHARD,
         //.arceusForm = SPECIES_ARCEUS_ELECTRIC,
     },
-    [TYPE_PSYCHIC] =
+    [TYPE_REASON] =
     {
         .name = _("Reason"),
         .generic = _("a Reason move"),
@@ -399,7 +399,7 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         //.teraShard = ITEM_ICE_TERA_SHARD,
         //.arceusForm = SPECIES_ARCEUS_ICE,
     },
-    [TYPE_DRAGON] =
+    [TYPE_HOLY] =
     {
         .name = _("Holy"),
         .generic = _("a Holy move"),
@@ -443,7 +443,7 @@ const struct TypeInfo gTypesInfo[NUMBER_OF_MON_TYPES] =
         //.teraShard = ITEM_DARK_TERA_SHARD,
         //.arceusForm = SPECIES_ARCEUS_DARK,
     },
-    [TYPE_FAIRY] =
+    [TYPE_ILLUSION] =
     {
         .name = _("Illusion"),
         .generic = _("an Illusion move"),
