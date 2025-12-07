@@ -485,7 +485,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_MAGICSTONES,
@@ -522,7 +522,6 @@
         .iconSprite = gMonIcon_MagicStones,
         .iconPalIndex = 0,
         FOOTPRINT(MagicStones)
-        .isMythical = TRUE,
         .levelUpLearnset = sMagicStonesLevelUpLearnset,
         .teachableLearnset = sMagicStonesTeachableLearnset,
     },

@@ -100,9 +100,9 @@
         .height = 6,
         .weight = 421,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 448,
         .pokemonOffset = 18,
         .trainerScale = 256,
@@ -158,7 +158,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE,EGG_GROUP_AMORPHOUS),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CYOSHIKA,
@@ -223,7 +223,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE,EGG_GROUP_AMORPHOUS),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_YOSHIKA,
@@ -290,7 +290,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE,EGG_GROUP_HUMAN_LIKE),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CSEIGA,
@@ -356,7 +356,7 @@
         .friendship = 35,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE,EGG_GROUP_HUMAN_LIKE),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_SEIGA,
@@ -498,9 +498,9 @@
         .height = 17,
         .weight = 2300,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 309,
@@ -631,9 +631,9 @@
         .height = 19,
         .weight = 2050,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 359,
@@ -763,9 +763,9 @@
         .height = 35,
         .weight = 9500,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 515,
@@ -887,7 +887,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE,EGG_GROUP_FIELD),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_MAMIZOU,
@@ -896,9 +896,9 @@
         .height = 14,
         .weight = 400,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 304,
         .pokemonOffset = 3,
         .trainerScale = 256,

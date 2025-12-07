@@ -618,7 +618,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE,EGG_GROUP_HUMAN_LIKE),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CHINA,
@@ -684,7 +684,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE,EGG_GROUP_HUMAN_LIKE),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_HINA,
@@ -750,7 +750,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE,EGG_GROUP_HUMAN_LIKE),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_AHINA,
@@ -816,7 +816,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE,EGG_GROUP_HUMAN_LIKE),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_DHINA,
@@ -1410,7 +1410,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_MONSTER, EGG_GROUP_DRAGON),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_SANAE,
@@ -1476,7 +1476,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE,EGG_GROUP_HUMAN_LIKE),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_ASANAE,
@@ -1542,7 +1542,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE,EGG_GROUP_HUMAN_LIKE),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_TSANAE,
@@ -1617,9 +1617,9 @@
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -2204,7 +2204,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CTENMA,
@@ -2270,7 +2270,7 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE,EGG_GROUP_FLYING),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_TENMA,
@@ -2345,9 +2345,9 @@
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,

@@ -7,7 +7,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -23,18 +23,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CBITEN,
         .sourceGame = SOURCE_UDOALG,
-        .categoryName = _("Maneki-neko"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -73,7 +73,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -89,18 +89,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_BITEN,
         .sourceGame = SOURCE_UDOALG,
-        .categoryName = _("Maneki-neko"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -139,7 +139,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -155,18 +155,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CENOKO,
         .sourceGame = SOURCE_UDOALG,
-        .categoryName = _("Maneki-neko"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -205,7 +205,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -221,18 +221,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_ENOKO,
         .sourceGame = SOURCE_UDOALG,
-        .categoryName = _("Maneki-neko"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -271,7 +271,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -287,18 +287,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CCHIYARI,
         .sourceGame = SOURCE_UDOALG,
-        .categoryName = _("Maneki-neko"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -337,7 +337,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -353,18 +353,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CHIYARI,
         .sourceGame = SOURCE_UDOALG,
-        .categoryName = _("Maneki-neko"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -403,7 +403,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -419,18 +419,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CHISAMI,
         .sourceGame = SOURCE_UDOALG,
-        .categoryName = _("Maneki-neko"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -469,7 +469,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -485,18 +485,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_HISAMI,
         .sourceGame = SOURCE_UDOALG,
-        .categoryName = _("Maneki-neko"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -535,7 +535,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -551,18 +551,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CZANMU,
         .sourceGame = SOURCE_UDOALG,
-        .categoryName = _("Maneki-neko"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -601,7 +601,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -617,18 +617,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_ZANMU,
         .sourceGame = SOURCE_UDOALG,
-        .categoryName = _("Maneki-neko"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,

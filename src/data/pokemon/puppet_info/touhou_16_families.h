@@ -7,7 +7,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -23,18 +23,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CETERNITYLARVA,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -73,7 +73,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -89,18 +89,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_ETERNITYLARVA,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -139,7 +139,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -155,18 +155,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CNEMUNO,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -205,7 +205,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -221,18 +221,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_NEMUNO,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -271,7 +271,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -287,18 +287,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CAUNN,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -337,7 +337,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -353,18 +353,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_AUNN,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -403,7 +403,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -419,18 +419,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CNARUMI,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -469,7 +469,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -485,18 +485,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_NARUMI,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -535,7 +535,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -551,18 +551,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CTEIREIDA,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -601,7 +601,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -617,18 +617,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_TEIREIDA,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -667,7 +667,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -683,18 +683,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_CSATONO,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -733,7 +733,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -749,18 +749,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_SATONO,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -799,7 +799,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -815,18 +815,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_COKINA,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -865,7 +865,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -881,18 +881,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_OKINA,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
@@ -931,7 +931,7 @@
         .baseSpeed     = 60,
         .baseSpAttack  = 100,
         .baseSpDefense = 60,
-        .types = MON_TYPES(TYPE_HOLY,TYPE_STEEL),
+        .types = MON_TYPES(TYPE_NONE,TYPE_NONE),
         .catchRate = 1,
         .expYield = 190,
         .evYield_HP        = 0,
@@ -947,18 +947,18 @@
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroups = MON_EGG_GROUPS(EGG_GROUP_AMORPHOUS,EGG_GROUP_MINERAL),
-        .abilities = {ABILITY_SERENE_GRACE, ABILITY_NONE},
+        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .safariZoneFleeRate = 0,
         .cryId = CRY_NONE,
         .natDexNum = NATIONAL_DEX_OKINAMAIDS,
         .sourceGame = SOURCE_HSIFS,
-        .categoryName = _("Ancestor"),
+        .categoryName = _("Undefined"),
         .height = 17,
         .weight = 608,
         .description = COMPOUND_STRING(
-        "xyz\n"
-        "xyz\n"
-        "xyz"),
+        "Missing\n"
+        "Artbook\n"
+        "Description"),
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 290,
