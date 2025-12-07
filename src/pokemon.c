@@ -122,7 +122,7 @@ static const struct CombinedMove sCombinedMoves[2] =
 // Assigns all Hoenn Dex Indexes to a National Dex Index
 static const enum NationalDexOrder sHoennToNationalOrder[HOENN_DEX_COUNT - 1] =
 {
-    HOENN_TO_NATIONAL(REIMU),
+    HOENN_TO_NATIONAL(CREIMU98),
 };
 
 const struct SpindaSpot gSpindaSpotGraphics[] =
