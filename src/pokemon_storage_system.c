@@ -858,7 +858,7 @@ struct {
 {
     [OPTION_WITHDRAW]   = {COMPOUND_STRING("Withdraw Bonéka"), COMPOUND_STRING("Move Bonéka stored in Boxes to\nyour party.")},
     [OPTION_DEPOSIT]    = {COMPOUND_STRING("Deposit Bonéka"),  COMPOUND_STRING("Store Bonéka in your party in Boxes.")},
-    [OPTION_MOVE_MONS]  = {COMPOUND_STRING("Move Bonéka"),     COMPOUND_STRING("Organize the Bonéka in BoxeS and\nin your party.")},
+    [OPTION_MOVE_MONS]  = {COMPOUND_STRING("Move Bonéka"),     COMPOUND_STRING("Organize the Bonéka in Boxes and\nin your party.")},
     [OPTION_MOVE_ITEMS] = {COMPOUND_STRING("Move Items"),       COMPOUND_STRING("Move items held by any Bonéka\nin a Box or your party.")},
     [OPTION_EXIT]       = {COMPOUND_STRING("See ya!"),          COMPOUND_STRING("Return to the previous menu.")}
 };
