@@ -60,6 +60,7 @@
 #include "constants/party_menu.h"
 #include "constants/rgb.h"
 #include "constants/songs.h"
+#include "constants/species.h"
 #include "constants/trainer_slide.h"
 #include "constants/trainers.h"
 #include "test/battle.h"
@@ -15532,28 +15533,38 @@ void BS_TryActivateGulpMissile(void)
     if (!gProtectStructs[gBattlerAttacker].confusionSelfDmg
         && IsBattlerAlive(gBattlerAttacker)
         && IsBattlerTurnDamaged(gBattlerTarget)
-        && gBattleMons[gBattlerTarget].species != SPECIES_CRAMORANT
         && GetBattlerAbility(gBattlerTarget) == ABILITY_GULP_MISSILE)
     {
-        if (GetBattlerAbility(gBattlerAttacker) != ABILITY_MAGIC_GUARD)
-        {
-            gBattleStruct->moveDamage[gBattlerTarget] = GetNonDynamaxMaxHP(gBattlerAttacker) / 4;
-            if (gBattleStruct->moveDamage[gBattlerTarget] == 0)
-                gBattleStruct->moveDamage[gBattlerTarget] = 1;
-        }
-
-        switch(gBattleMons[gBattlerTarget].species)
+        // Only apply if the target actually has something in its mouth
+        switch (gBattleMons[gBattlerTarget].species)
         {
             case SPECIES_CRAMORANT_GORGING:
+                if (GetBattlerAbility(gBattlerAttacker) != ABILITY_MAGIC_GUARD)
+                {
+                    gBattleStruct->moveDamage[gBattlerTarget] = GetNonDynamaxMaxHP(gBattlerAttacker) / 4;
+                    if (gBattleStruct->moveDamage[gBattlerTarget] == 0)
+                        gBattleStruct->moveDamage[gBattlerTarget] = 1;
+                }
                 TryBattleFormChange(gBattlerTarget, FORM_CHANGE_HIT_BY_MOVE);
                 BattleScriptCall(BattleScript_GulpMissileGorging);
                 return;
+
             case SPECIES_CRAMORANT_GULPING:
+                if (GetBattlerAbility(gBattlerAttacker) != ABILITY_MAGIC_GUARD)
+                {
+                    gBattleStruct->moveDamage[gBattlerTarget] = GetNonDynamaxMaxHP(gBattlerAttacker) / 4;
+                    if (gBattleStruct->moveDamage[gBattlerTarget] == 0)
+                        gBattleStruct->moveDamage[gBattlerTarget] = 1;
+                }
                 TryBattleFormChange(gBattlerTarget, FORM_CHANGE_HIT_BY_MOVE);
                 BattleScriptCall(BattleScript_GulpMissileGulping);
                 return;
+
+            default:
+                break; // No form change or effect
         }
     }
+
     gBattlescriptCurrInstr = cmd->nextInstr;
 }
 

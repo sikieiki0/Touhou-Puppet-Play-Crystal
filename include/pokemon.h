@@ -14,6 +14,7 @@
 #include "constants/battle.h"
 #include "constants/abilities.h"
 #include "constants/moves.h"
+#include "constants/species.h"
 #include "contest_effect.h"
 #include "constants/trainers.h"
 
@@ -357,7 +358,7 @@ struct Volatiles
 
 struct BattlePokemon
 {
-    /*0x00*/ u16 species;
+    /*0x00*/ enum Species species;
     /*0x02*/ u16 attack;
     /*0x04*/ u16 defense;
     /*0x06*/ u16 speed;

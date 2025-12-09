@@ -5219,33 +5219,40 @@ u32 AbilityBattleEffects(u32 caseID, u32 battler, enum Ability ability, u32 spec
                 effect++;
             }
             break;
-        case ABILITY_GULP_MISSILE:
-            if (!gProtectStructs[gBattlerAttacker].confusionSelfDmg
-             && IsBattlerTurnDamaged(gBattlerTarget)
-             && IsBattlerAlive(gBattlerAttacker)
-             && gBattleMons[gBattlerTarget].species != SPECIES_CRAMORANT)
-            {
+    case ABILITY_GULP_MISSILE:
+        if (!gProtectStructs[gBattlerAttacker].confusionSelfDmg
+         && IsBattlerTurnDamaged(gBattlerTarget)
+         && IsBattlerAlive(gBattlerAttacker))
+        {
+        switch (gBattleMons[gBattlerTarget].species)
+        {
+            case SPECIES_CRAMORANT_GORGING:
+            case SPECIES_CRAMORANT_GULPING:
+                // Apply chip damage to attacker if not Magic Guard
                 if (GetBattlerAbility(gBattlerAttacker) != ABILITY_MAGIC_GUARD)
                 {
-                    gBattleStruct->moveDamage[gBattlerAttacker] = GetNonDynamaxMaxHP(gBattlerAttacker) / 4;
+                    gBattleStruct->moveDamage[gBattlerAttacker] =
+                        GetNonDynamaxMaxHP(gBattlerAttacker) / 4;
+
                     if (gBattleStruct->moveDamage[gBattlerAttacker] == 0)
                         gBattleStruct->moveDamage[gBattlerAttacker] = 1;
                 }
 
-                switch(gBattleMons[gBattlerTarget].species)
-                {
-                    case SPECIES_CRAMORANT_GORGING:
-                        TryBattleFormChange(battler, FORM_CHANGE_HIT_BY_MOVE);
-                        BattleScriptCall(BattleScript_GulpMissileGorging);
-                        effect++;
-                        break;
-                    case SPECIES_CRAMORANT_GULPING:
-                        TryBattleFormChange(battler, FORM_CHANGE_HIT_BY_MOVE);
-                        BattleScriptCall(BattleScript_GulpMissileGulping);
-                        effect++;
-                        break;
-                }
-            }
+                // Apply correct form revert + script
+                TryBattleFormChange(battler, FORM_CHANGE_HIT_BY_MOVE);
+
+                if (gBattleMons[gBattlerTarget].species == SPECIES_CRAMORANT_GORGING)
+                    BattleScriptCall(BattleScript_GulpMissileGorging);
+                else
+                    BattleScriptCall(BattleScript_GulpMissileGulping);
+
+                effect++;
+                break;
+
+            default:
+                break;
+        }
+    }
             break;
         case ABILITY_SEED_SOWER:
             if (!gProtectStructs[gBattlerAttacker].confusionSelfDmg

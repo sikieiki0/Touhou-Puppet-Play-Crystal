@@ -4,6 +4,7 @@
 #include "constants/moves.h"
 #include "constants/trainers.h"
 #include "constants/battle.h"
+#include "constants/species.h"
 #include "difficulty.h"
 #include "debug.h"
 
@@ -62,7 +63,7 @@ struct TrainerMon
     const u8 *ev;
     u32 iv;
     enum Move moves[4];
-    u16 species;
+    enum Species species;
     u16 heldItem;
     enum Ability ability;
     u8 lvl;
