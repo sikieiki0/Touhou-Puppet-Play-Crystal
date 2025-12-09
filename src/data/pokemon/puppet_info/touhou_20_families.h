@@ -58,7 +58,7 @@
         .palette = gMonPalette_CUbame,
         .shinyPalette = gMonShinyPalette_CUbame,
         .iconSprite = gMonIcon_CUbame,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(CUbame)
         .levelUpLearnset = sCUbameLevelUpLearnset,
         .teachableLearnset = sCUbameTeachableLearnset,
@@ -124,7 +124,7 @@
         .palette = gMonPalette_Ubame,
         .shinyPalette = gMonShinyPalette_Ubame,
         .iconSprite = gMonIcon_Ubame,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(Ubame)
         .levelUpLearnset = sUbameLevelUpLearnset,
         .teachableLearnset = sUbameTeachableLearnset,
@@ -190,7 +190,7 @@
         .palette = gMonPalette_CChimi,
         .shinyPalette = gMonShinyPalette_CChimi,
         .iconSprite = gMonIcon_CChimi,
-        .iconPalIndex = 2,
+        .iconPalIndex = 0,
         FOOTPRINT(CChimi)
         .levelUpLearnset = sCChimiLevelUpLearnset,
         .teachableLearnset = sCChimiTeachableLearnset,
@@ -256,7 +256,7 @@
         .palette = gMonPalette_Chimi,
         .shinyPalette = gMonShinyPalette_Chimi,
         .iconSprite = gMonIcon_Chimi,
-        .iconPalIndex = 2,
+        .iconPalIndex = 0,
         FOOTPRINT(Chimi)
         .levelUpLearnset = sChimiLevelUpLearnset,
         .teachableLearnset = sChimiTeachableLearnset,
@@ -322,7 +322,7 @@
         .palette = gMonPalette_CNareko,
         .shinyPalette = gMonShinyPalette_CNareko,
         .iconSprite = gMonIcon_CNareko,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(CNareko)
         .levelUpLearnset = sCNarekoLevelUpLearnset,
         .teachableLearnset = sCNarekoTeachableLearnset,
@@ -388,7 +388,7 @@
         .palette = gMonPalette_Nareko,
         .shinyPalette = gMonShinyPalette_Nareko,
         .iconSprite = gMonIcon_Nareko,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(Nareko)
         .levelUpLearnset = sNarekoLevelUpLearnset,
         .teachableLearnset = sNarekoTeachableLearnset,
@@ -454,7 +454,7 @@
         .palette = gMonPalette_CAsama,
         .shinyPalette = gMonShinyPalette_CAsama,
         .iconSprite = gMonIcon_CAsama,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(CAsama)
         .levelUpLearnset = sCAsamaLevelUpLearnset,
         .teachableLearnset = sCAsamaTeachableLearnset,
@@ -520,7 +520,7 @@
         .palette = gMonPalette_Asama,
         .shinyPalette = gMonShinyPalette_Asama,
         .iconSprite = gMonIcon_Asama,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(Asama)
         .levelUpLearnset = sAsamaLevelUpLearnset,
         .teachableLearnset = sAsamaTeachableLearnset,
@@ -718,7 +718,7 @@
         .palette = gMonPalette_CNina,
         .shinyPalette = gMonShinyPalette_CNina,
         .iconSprite = gMonIcon_CNina,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(CNina)
         .levelUpLearnset = sCNinaLevelUpLearnset,
         .teachableLearnset = sCNinaTeachableLearnset,
@@ -726,7 +726,7 @@
 
     [SPECIES_NINA] =
     {
-        .speciesName = _("Nina{CHIBI}"), ///// MISSING DATA
+        .speciesName = _("Nina"), ///// MISSING DATA
         .baseHP        = 100,
         .baseAttack    = 100,
         .baseDefense   = 100,
@@ -784,7 +784,7 @@
         .palette = gMonPalette_Nina,
         .shinyPalette = gMonShinyPalette_Nina,
         .iconSprite = gMonIcon_Nina,
-        .iconPalIndex = 2,
+        .iconPalIndex = 1,
         FOOTPRINT(Nina)
         .levelUpLearnset = sNinaLevelUpLearnset,
         .teachableLearnset = sNinaTeachableLearnset,
