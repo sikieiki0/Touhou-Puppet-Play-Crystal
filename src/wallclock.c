@@ -61,7 +61,7 @@ enum {
 };
 
 enum {
-    MOVE_NONE,
+    MOVE_NO_MOVEMENT,
     MOVE_BACKWARD,
     MOVE_FORWARD,
 };

@@ -13,6 +13,7 @@
 #include "constants/map_groups.h"
 #include "constants/battle.h"
 #include "constants/abilities.h"
+#include "constants/moves.h"
 #include "contest_effect.h"
 #include "constants/trainers.h"
 
@@ -145,13 +146,13 @@ struct PokemonSubstruct0
 
 struct PokemonSubstruct1
 {
-    u16 move1:11; // 2047 moves.
+    enum Move move1:11; // 2047 moves.
     u16 evolutionTracker1:5;
-    u16 move2:11; // 2047 moves.
+    enum Move move2:11; // 2047 moves.
     u16 evolutionTracker2:5;
-    u16 move3:11; // 2047 moves.
+    enum Move move3:11; // 2047 moves.
     u16 unused_04:5;
-    u16 move4:11; // 2047 moves.
+    enum Move move4:11; // 2047 moves.
     u16 unused_06:3;
     u16 hyperTrainedHP:1;
     u16 hyperTrainedAttack:1;
@@ -362,7 +363,7 @@ struct BattlePokemon
     /*0x06*/ u16 speed;
     /*0x08*/ u16 spAttack;
     /*0x0A*/ u16 spDefense;
-    /*0x0C*/ u16 moves[MAX_MON_MOVES];
+    /*0x0C*/ enum Move moves[MAX_MON_MOVES];
     /*0x14*/ u32 hpIV:5;
     /*0x14*/ u32 attackIV:5;
     /*0x15*/ u32 defenseIV:5;
@@ -622,7 +623,7 @@ struct SpindaSpot
 
 struct LevelUpMove
 {
-    u16 move;
+    enum Move move;
     u16 level;
 };
 
