@@ -1,3 +1,5 @@
+#include "constants/abilities.h"
+
 const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 {
     [ABILITY_NONE] =

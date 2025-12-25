@@ -1,4 +1,5 @@
 #include "constants/abilities.h"
+#include "constants/species.h"
 #include "species_info/shared_dex_text.h"
 #include "species_info/shared_front_pic_anims.h"
 
